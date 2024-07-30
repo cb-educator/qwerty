@@ -1,0 +1,24 @@
+
+.button {
+    background-color: #e9fae3;
+    border: 2px solid #e9fae3;
+	border-radius: 0;
+	box-shadow: none;
+	width: 8rem; /* adjust as required */
+	height: 4rem; /* adjust as required */
+	
+}
+
+.button:hover {
+    background: hsl(104.3478260869565deg 69.69696969696972% 83.52941176470588%);
+    border: 2px solid hsl(104.3478260869565deg 69.69696969696972% 83.52941176470588%);
+	border-radius: 0;
+	box-shadow: none;
+	
+}
+
+.button:disabled {
+    background-color: hsl(104.3478260869565deg 15% 93.52941176470588%);
+	border-radius: 0;
+    color: white
+}
